@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MavEproTestSuite" parallel="false" preserve-order="true">
+	<listeners>
+		<listener class-name="pdfreport.PdfLogging" />
+	</listeners>
+
+	<test name="Regression test on Device - Galaxy J7">
+		<parameter name="testDeviceName" value="10608cd1"></parameter>
+		<parameter name="testPlatformVersion" value="5.0.2"></parameter>
+		<parameter name="testPort" value="4723"></parameter>
+		<classes>
+			<class name="mavepro.mavepro.MavHomeTest" />
+			<class name="mavepro.mavepro.RegistrationTest" />
+			<class name="mavepro.mavepro.RaterSummaryTest" />
+		</classes>
+	</test> <!-- Test : Regression test on Device Galaxy J7 -->
+
+	<test name="Regression test on Device - Nexus 5">
+		<parameter name="testDeviceName" value="04cd746200741e45"></parameter>
+		<parameter name="testPlatformVersion" value="6.0.1"></parameter>
+		<parameter name="testPort" value="4723"></parameter>
+		<classes>
+			<class name="mavepro.mavepro.MavHomeTest" />
+			<class name="mavepro.mavepro.RegistrationTest" />
+			<class name="mavepro.mavepro.RaterSummaryTest" />
+		</classes>
+	</test> <!-- Test : Regression test on Device Nexus 5 -->
+
+</suite> <!-- Suite -->

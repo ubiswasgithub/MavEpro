@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MavEproTestSuite]">
+  <listeners>
+    <listener class-name="pdfreport.PdfLogging"/>
+  </listeners>
+  <test name="Regression test on Device - Galaxy J7(failed)">
+    <parameter name="testPort" value="4723"/>
+    <parameter name="testDeviceName" value="10608cd1"/>
+    <parameter name="testPlatformVersion" value="5.0.2"/>
+    <classes>
+      <class name="mavepro.mavepro.RaterSummaryTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyRaterSummaryInformation"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.RaterSummaryTest -->
+      <class name="mavepro.mavepro.RegistrationTest">
+        <methods>
+          <include name="verifyRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.RegistrationTest -->
+      <class name="mavepro.mavepro.MavHomeTest">
+        <methods>
+          <include name="appiumTestSetUp"/>
+          <include name="appiumTestSetUp"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyHome"/>
+          <include name="appiumTestTearDown"/>
+          <include name="appiumTestTearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.MavHomeTest -->
+    </classes>
+  </test> <!-- Regression test on Device - Galaxy J7(failed) -->
+  <test name="Regression test on Device - Nexus 5(failed)">
+    <parameter name="testPort" value="4723"/>
+    <parameter name="testDeviceName" value="04cd746200741e45"/>
+    <parameter name="testPlatformVersion" value="6.0.1"/>
+    <classes>
+      <class name="mavepro.mavepro.RaterSummaryTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyRaterSummaryInformation"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.RaterSummaryTest -->
+      <class name="mavepro.mavepro.RegistrationTest">
+        <methods>
+          <include name="verifyRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.RegistrationTest -->
+      <class name="mavepro.mavepro.MavHomeTest">
+        <methods>
+          <include name="appiumTestSetUp"/>
+          <include name="appiumTestSetUp"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyHome"/>
+          <include name="appiumTestTearDown"/>
+          <include name="appiumTestTearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- mavepro.mavepro.MavHomeTest -->
+    </classes>
+  </test> <!-- Regression test on Device - Nexus 5(failed) -->
+</suite> <!-- Failed suite [MavEproTestSuite] -->

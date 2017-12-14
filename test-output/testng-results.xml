@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="18" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:45:43 [Info] Starting Regression Test on device = 10608cd1 at Port 4723]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:45:43 [Info] Initializing appium remote driver...]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:12 [Verify] Check that 'Enter the Code' button is exist on home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:12 [Pass] Enter the Code Button is visible in home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:12 [Verify] Check that 'Scan the Code' button is exist on home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:12 [Pass] Scan the Code Button is visible in home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:13 [Verify] Check that Registration Code text box is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:15 [Pass] Registration code text box is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:31 [Verify] Check that Submit button is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:33 [Pass] Submit button is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:34 [Verify] Check that Registration Succeeded Message is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:35 [Pass] Registration Succeeded Message is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:35 [Verify] Check that Continue button is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:36 [Pass] Continue button is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:37 [Verify] Check that page is welcome message to rater]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:39 [Pass] Welcome message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:39 [Info] Quit appium remote driver and finish the test..]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:41 [Info] Starting Regression Test on device = 04cd746200741e45 at Port 4723]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:46:41 [Info] Initializing appium remote driver...]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:08 [Verify] Check that 'Enter the Code' button is exist on home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:08 [Pass] Enter the Code Button is visible in home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:08 [Verify] Check that 'Scan the Code' button is exist on home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:08 [Pass] Scan the Code Button is visible in home page]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:09 [Verify] Check that Registration Code text box is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:09 [Pass] Registration code text box is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:18 [Verify] Check that Submit button is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:19 [Pass] Submit button is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:20 [Verify] Check that Registration Succeeded Message is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:21 [Pass] Registration Succeeded Message is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:21 [Verify] Check that Continue button is present]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:21 [Pass] Continue button is found]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:22 [Verify] Check that page is welcome message to rater]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:23 [Pass] Welcome message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+ </br> 2017-12-14 18:47:23 [Info] Quit appium remote driver and finish the test..]]>
+    </line>
+  </reporter-output>
+  <suite name="MavEproTestSuite" duration-ms="103350" started-at="2017-12-14T12:45:43Z" finished-at="2017-12-14T12:47:27Z">
+    <groups>
+      <group name="MavHome">
+        <method signature="MavHomeTest.verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="verifyHome" class="mavepro.mavepro.MavHomeTest"/>
+        <method signature="MavHomeTest.verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="verifyHome" class="mavepro.mavepro.MavHomeTest"/>
+      </group> <!-- MavHome -->
+      <group name="Registration">
+        <method signature="RegistrationTest.verifyRegistration()[pri:0, instance:mavepro.mavepro.RegistrationTest@56aac163]" name="verifyRegistration" class="mavepro.mavepro.RegistrationTest"/>
+        <method signature="RegistrationTest.verifyRegistration()[pri:0, instance:mavepro.mavepro.RegistrationTest@76f2b07d]" name="verifyRegistration" class="mavepro.mavepro.RegistrationTest"/>
+      </group> <!-- Registration -->
+    </groups>
+    <test name="Regression test on Device - Galaxy J7" duration-ms="57416" started-at="2017-12-14T12:45:43Z" finished-at="2017-12-14T12:46:41Z">
+      <class name="mavepro.mavepro.RaterSummaryTest">
+        <test-method status="PASS" signature="verifyRaterSummaryInformation()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@1f7030a6]" name="verifyRaterSummaryInformation" duration-ms="1669" started-at="2017-12-14T18:46:37Z" finished-at="2017-12-14T18:46:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:37 [Verify] Check that page is welcome message to rater]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:39 [Pass] Welcome message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRaterSummaryInformation -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@1f7030a6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:46:37Z" finished-at="2017-12-14T18:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@1f7030a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:46:39Z" finished-at="2017-12-14T18:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mavepro.mavepro.RaterSummaryTest -->
+      <class name="mavepro.mavepro.RegistrationTest">
+        <test-method status="PASS" signature="verifyRegistration()[pri:0, instance:mavepro.mavepro.RegistrationTest@56aac163]" name="verifyRegistration" duration-ms="23510" started-at="2017-12-14T18:46:13Z" description=" Test case to verify Registration process" finished-at="2017-12-14T18:46:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:13 [Verify] Check that Registration Code text box is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:15 [Pass] Registration code text box is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:31 [Verify] Check that Submit button is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:33 [Pass] Submit button is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:34 [Verify] Check that Registration Succeeded Message is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:35 [Pass] Registration Succeeded Message is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:35 [Verify] Check that Continue button is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:36 [Pass] Continue button is found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mavepro.mavepro.RegistrationTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:46:13Z" finished-at="2017-12-14T18:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mavepro.mavepro.RegistrationTest@56aac163]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:46:37Z" finished-at="2017-12-14T18:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mavepro.mavepro.RegistrationTest -->
+      <class name="mavepro.mavepro.MavHomeTest">
+        <test-method status="PASS" signature="appiumTestSetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="appiumTestSetUp" is-config="true" duration-ms="28514" started-at="2017-12-14T18:45:43Z" finished-at="2017-12-14T18:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10608cd1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:45:43 [Info] Starting Regression Test on device = 10608cd1 at Port 4723]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:45:43 [Info] Initializing appium remote driver...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- appiumTestSetUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-14T18:46:12Z" finished-at="2017-12-14T18:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mavepro.mavepro.MavHomeTest.verifyHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="verifyHome" duration-ms="1170" started-at="2017-12-14T18:46:12Z" description="Test case to verify Epro home" finished-at="2017-12-14T18:46:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:12 [Verify] Check that 'Enter the Code' button is exist on home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:12 [Pass] Enter the Code Button is visible in home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:12 [Verify] Check that 'Scan the Code' button is exist on home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:12 [Pass] Scan the Code Button is visible in home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHome -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:46:13Z" finished-at="2017-12-14T18:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHome status=SUCCESS method=MavHomeTest.verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2] output=
+ </br> 2017-12-14 18:46:12 [Verify] Check that 'Enter the Code' button is exist on home page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="appiumTestTearDown()[pri:0, instance:mavepro.mavepro.MavHomeTest@184f6be2]" name="appiumTestTearDown" is-config="true" duration-ms="2330" started-at="2017-12-14T18:46:39Z" finished-at="2017-12-14T18:46:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:39 [Info] Quit appium remote driver and finish the test..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- appiumTestTearDown -->
+      </class> <!-- mavepro.mavepro.MavHomeTest -->
+    </test> <!-- Regression test on Device - Galaxy J7 -->
+    <test name="Regression test on Device - Nexus 5" duration-ms="45918" started-at="2017-12-14T12:46:41Z" finished-at="2017-12-14T12:47:27Z">
+      <class name="mavepro.mavepro.RaterSummaryTest">
+        <test-method status="PASS" signature="verifyRaterSummaryInformation()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@704a52ec]" name="verifyRaterSummaryInformation" duration-ms="1100" started-at="2017-12-14T18:47:22Z" finished-at="2017-12-14T18:47:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:22 [Verify] Check that page is welcome message to rater]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:23 [Pass] Welcome message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRaterSummaryInformation -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@704a52ec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:22Z" finished-at="2017-12-14T18:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mavepro.mavepro.RaterSummaryTest@704a52ec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:23Z" finished-at="2017-12-14T18:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mavepro.mavepro.RaterSummaryTest -->
+      <class name="mavepro.mavepro.RegistrationTest">
+        <test-method status="PASS" signature="verifyRegistration()[pri:0, instance:mavepro.mavepro.RegistrationTest@76f2b07d]" name="verifyRegistration" duration-ms="13628" started-at="2017-12-14T18:47:09Z" description=" Test case to verify Registration process" finished-at="2017-12-14T18:47:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:09 [Verify] Check that Registration Code text box is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:09 [Pass] Registration code text box is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:18 [Verify] Check that Submit button is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:19 [Pass] Submit button is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:20 [Verify] Check that Registration Succeeded Message is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:21 [Pass] Registration Succeeded Message is found]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:21 [Verify] Check that Continue button is present]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:21 [Pass] Continue button is found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mavepro.mavepro.RegistrationTest@76f2b07d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:09Z" finished-at="2017-12-14T18:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mavepro.mavepro.RegistrationTest@76f2b07d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:22Z" finished-at="2017-12-14T18:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mavepro.mavepro.RegistrationTest -->
+      <class name="mavepro.mavepro.MavHomeTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2017-12-14T18:45:43Z" finished-at="2017-12-14T18:45:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@723e88f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="appiumTestSetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="appiumTestSetUp" is-config="true" duration-ms="26894" started-at="2017-12-14T18:46:41Z" finished-at="2017-12-14T18:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[04cd746200741e45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:41 [Info] Starting Regression Test on device = 04cd746200741e45 at Port 4723]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:46:41 [Info] Initializing appium remote driver...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- appiumTestSetUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:08Z" finished-at="2017-12-14T18:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mavepro.mavepro.MavHomeTest.verifyHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="verifyHome" duration-ms="869" started-at="2017-12-14T18:47:08Z" description="Test case to verify Epro home" finished-at="2017-12-14T18:47:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:08 [Verify] Check that 'Enter the Code' button is exist on home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:08 [Pass] Enter the Code Button is visible in home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:08 [Verify] Check that 'Scan the Code' button is exist on home page]]>
+            </line>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:08 [Pass] Scan the Code Button is visible in home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHome -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-14T18:47:09Z" finished-at="2017-12-14T18:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHome status=SUCCESS method=MavHomeTest.verifyHome()[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539] output=
+ </br> 2017-12-14 18:47:08 [Verify] Check that 'Enter the Code' button is exist on home page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="appiumTestTearDown()[pri:0, instance:mavepro.mavepro.MavHomeTest@1f57539]" name="appiumTestTearDown" is-config="true" duration-ms="3361" started-at="2017-12-14T18:47:23Z" finished-at="2017-12-14T18:47:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ </br> 2017-12-14 18:47:23 [Info] Quit appium remote driver and finish the test..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- appiumTestTearDown -->
+      </class> <!-- mavepro.mavepro.MavHomeTest -->
+    </test> <!-- Regression test on Device - Nexus 5 -->
+  </suite> <!-- MavEproTestSuite -->
+</testng-results>
