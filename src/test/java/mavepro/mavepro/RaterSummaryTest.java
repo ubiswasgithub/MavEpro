@@ -1,12 +1,13 @@
 package mavepro.mavepro;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import mavepro.summary.RaterSummary;
 import pdfreport.PdfLog;
 
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.AfterMethod;
+
 
 public class RaterSummaryTest extends AbstractTest {
 	RaterSummary objSummary = new RaterSummary();
